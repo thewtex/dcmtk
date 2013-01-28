@@ -29,7 +29,7 @@
 
 
 #ifdef WITH_ZLIB
-#include <zlib.h> /* for zlibVersion() */
+#include "itk_zlib.h"                   /* for zlibVersion() */
 #endif
 
 DcmSCU::DcmSCU()

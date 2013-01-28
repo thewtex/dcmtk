@@ -32,7 +32,7 @@
 #include "dcmtk/dcmnet/dimse.h"
 
 #ifdef WITH_ZLIB
-#include <zlib.h>
+#include "itk_zlib.h"
 #endif
 
 // ----------------------------------------------------------------------------
